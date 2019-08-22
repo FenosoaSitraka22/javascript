@@ -1,0 +1,253 @@
+ body{
+ 	background-color:;
+ }
+/******************************************/
+			   /* COLOR */
+/******************************************/
+
+/* primaire*/
+.primary{
+	background-color: #3b7be2;
+	border-radius: 20px;
+}
+.text-primary {
+  color:#f44100;	
+}
+#text-blank{
+	color:white;
+}
+
+/*SENCONDaire*/
+.secondary{
+	background-color:#43e091;
+	border-radius: 20px;
+	text-align: center;
+}
+}
+.text-secondary {
+  color:#f44100;	
+}
+
+/* trois nuance gris*/
+.palette-light{
+	background-color:#959694;
+	border-radius: 20px;
+	text-align: center;
+
+}
+
+.palette-medium-light{
+	background-color:#728184;
+	border-radius: 20px;
+	text-align: center;
+
+	
+}
+.palette-dark{
+	background-color:#363e3f;
+	border-radius: 20px;
+	text-align: center;
+
+	
+	
+}
+
+/**********GRID***********/
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(60px, auto);
+  text-align: center;
+  vertical-align: middle;
+
+}
+.two {
+  grid-column:  1/3 ;
+  grid-row: 1;
+}
+
+
+
+/***********TYPOGRAPHY**************/
+
+/*********les headings**************/
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+	font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+	font-family: Arial, Helvetica, sans-serif;	
+ 
+}
+h5{
+	font-family: Arial, Helvetica, sans-serif;
+}
+h6{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/**************normal text*************/
+
+p{
+  font-family: candara, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+lead{
+  font-family: candara, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+lead{
+	 font-family: candara, Helvetica, sans-serif;
+	 font: italic small-caps bold 16px/2 cursive;
+}
+blockquote{
+	font-size:1.4em;
+	width:60%;
+	margin: :50px auto;
+	font-family:Open Sans;
+	font-style:italic;
+	colore:;
+	padding:1.2em 30px 1.2em 75px; /*ramplir*/
+	border-left: 8px solid #78C0A8;
+	line-height:1.6;
+	position: relative;
+	background:#EDEDED;
+}
+
+ul{
+	background: ;
+	list-style-type: circle;
+	margin:10px;
+
+
+}
+ol{
+	list-style-type: lower-alpha;
+	background: ;
+	margin:10px;
+	
+}
+li{
+	background: ;
+	font-style:italic; 
+}
+
+/*****************BOUTTON******************/
+/**********btn-normal********/
+.btn{
+	width:200px;
+	text-align: center;
+	line-height:50px; 
+	border-radius: 15px;
+	display: block;
+}
+
+/**********outline**********/
+.btn-primary{
+	background-color:#3b7be2;
+	width:200px;
+	text-align: center;
+	line-height:50px; 
+	border-radius: 15px;
+	display: block;
+
+/*	display:block;
+width:150px;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+background:url(images/bouton-noir.png) no-repeat;
+color:white;
+text-decoration:none;*/
+
+}
+.btn-secondary{
+	background-color:#43e091;
+	width:200px;
+	text-align: center;
+	line-height:50px; 
+	border-radius: 15px;
+	display: block;
+
+/*	display:block;
+width:150px;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+background:url(images/bouton-noir.png) no-repeat;
+color:white;
+text-decoration:none;*/
+
+}
+
+.btn-warning{
+	background-color:#e04e00;
+	width:200px;
+	text-align: center;
+	line-height:50px; 
+	border-radius: 15px;
+	display: block;
+
+/*	display:block;
+width:150px;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+background:url(images/bouton-noir.png) no-repeat;
+color:white;
+text-decoration:none;*/
+
+}
+.btn-danger{
+	background-color:#e00000;
+	width:200px;
+	text-align: center;
+	line-height:50px; 
+	border-radius: 15px;
+	display: block;
+
+}
+.btn-success{
+	background-color:#0ba500;
+	width:200px;
+	text-align: center;
+	line-height:50px; 
+	border-radius: 15px;
+	display: block;
+
+}
+
+.btn-info{
+	background-color:#71c8ed;
+	width:200px;
+	text-align: center;
+	line-height:50px; 
+	border-radius: 15px;
+	display: block;
+
+}
+
+
+.btn-{
+
+}
+.btn-info{
+
+}
+.btn-success{
+
+}
+.btn{
+
+}
+
