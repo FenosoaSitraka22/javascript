@@ -21,7 +21,7 @@ for (i=0;i<books.length;i++){
 	console.log("le livre : " +books[i].title + ", est il deja empruntés? =>" + b );
 }
 
-console.log(" le livre le moins emprunté est ");
+console.log(" Le livre le moins emprunté est ");
  min = books[0].rented ;
 
 for (i=0;i<books.length;i++){
@@ -69,7 +69,7 @@ for (i=0;i<books.length;i++)
 	t[i] = books[i].title	;
 }
 
-console.log(t.sort());
+
  ///////////// recherche d'un livre par un titre//////////
 
  function find(books,titre){
@@ -80,8 +80,9 @@ console.log(t.sort());
  		
  	} 
  }
- console.log(find(books,"A la recherche du temps,perdu").id);
+
 /////// triage des livres par titre////////
+ console.log("triage des livres par alphabet  sans celui avec id = 133712" );
 livreabc =[];
 newbooks=[];
 for(k=0 ;k< books.length;k++){
