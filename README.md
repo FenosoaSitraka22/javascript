@@ -1,3 +1,4 @@
 # javascript
-Cooperateur : Djah75
-
+Member of pair programming:
+RASOLOMAMONJY Toky Faneva 
+RATSIMBAHARIMIHAMINA Fenosoa Sitraka
